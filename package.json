@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "serve dist -s -l 3000",
     "preview": "vite preview"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
   },
   "devDependencies": {
     "vite": "^5.4.0"
